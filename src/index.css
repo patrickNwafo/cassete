@@ -10,7 +10,7 @@ html {
 
 @supports (font-variation-settings: normal) {
     html {
-        font-family: "Inter var", sans-serif;
+        font-family: "Noto Serif", serif;
     }
 }
 
@@ -51,7 +51,7 @@ html {
 }
 
 .filepicker-container {
-    @apply absolute left-full ml-3 glassmorphism p-3 w-[195px] h-[220px] flex flex-col rounded-md;
+    @apply absolute left-full ml-3 glassmorphism w-[195px] h-[220px] flex flex-col rounded-md;
 }
 
 .filepicker-label {
@@ -59,7 +59,7 @@ html {
 }
 
 .tab-btn {
-    @apply flex items-center justify-center cursor-pointer select-none w-14 h-14;
+    @apply flex items-center justify-center p-3 cursor-pointer select-none w-14 h-14;
 }
 
 .glassmorphism {

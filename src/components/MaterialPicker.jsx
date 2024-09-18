@@ -18,14 +18,14 @@ function MaterialPicker() {
   };
 
   return (
-    <div className="flex flex-row bg-[#A3B18A] p-2 space-x-2">
+    <div className="flex flex-row bg-[#A3B18A] p-2 space-x-2 rounded-md">
       {materials.map((material) => (
         <button
           key={material.key}
           onClick={() => handleMaterialSelect(material.key)}
           className={`py-2 px-0 font-serif rounded-none transition-all duration-300 ease-in-out 
             ${snap.selectedMaterial === material.key
-              ? ' text-gray-300 shadow-lg transform scale-105'
+              ? ' text-gray-200 transform scale-105'
               : ' text-white'
             }`}
         >

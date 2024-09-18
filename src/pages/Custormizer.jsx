@@ -179,7 +179,7 @@ const Custormizer = () => {
                         />
                     </motion.div>
 
-                    <motion.div className="filtertabs-container" {...slideAnimation("up")}
+                    <motion.div className=" filtertabs-container" {...slideAnimation("up")}
                     >
                         {FilterTabs.map((tab) => (
                             <Tab
